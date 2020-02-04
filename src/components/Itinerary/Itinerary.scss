@@ -1,0 +1,27 @@
+$color-text-secondary: #7f7f7f;
+
+.Itinerary {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  overflow: hidden;
+
+  &__agent {
+    color: $color-text-secondary;
+  }
+  &__details {
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  &__details-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__price {
+    font-size: 28px;
+  }
+}
